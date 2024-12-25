@@ -1,0 +1,79 @@
+.aboutContainer {
+    margin: 50px;
+}
+
+.aboutContainerHeader {
+    display: flex;
+    gap: 4vw;
+    margin-bottom: 50px;
+}
+
+.aboutContainerHeaderImage img {
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all .5s ease-out;
+}
+
+.aboutContainerHeaderImage img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.aboutContainerHeaderDescription h3 {
+    color: rgb(81, 116, 255);
+    font-weight: bolder;
+}
+
+.aboutContainerHeaderDescription span {
+    color: rgb(132, 0, 255);
+}
+
+.aboutContainerHeaderDescription div {
+    font-size: larger;
+    color: rgb(60, 60, 60);
+}
+
+.aboutDivider {
+    border: 0;
+    height: 8px;
+    background: linear-gradient(to right, #2e02bc, #99045b);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .aboutContainer {
+        margin: 20px;
+    }
+
+    .aboutContainerHeader {
+        flex-direction: column; /* Stack items vertically */
+        gap: 2vw;
+    }
+
+    .aboutContainerHeaderImage img {
+        height: auto; /* Allow the image to resize naturally */
+        max-width: 100%; /* Ensure the image fits within the container */
+    }
+
+    .aboutContainerHeaderDescription div {
+        font-size: medium; /* Adjust font size for readability */
+    }
+
+    .aboutContainerHeaderDescription h3 {
+        font-size: 1.5rem; /* Adjust header size */
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutContainerHeaderDescription div {
+        font-size: small; /* Smaller font size for very small screens */
+    }
+
+    .aboutContainerHeaderDescription h3 {
+        font-size: 1.2rem; /* Adjust header size further */
+    }
+
+    .aboutDivider {
+        height: 4px; /* Thinner divider for smaller screens */
+    }
+}
