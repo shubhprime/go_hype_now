@@ -1,0 +1,161 @@
+.contactContainer {
+    background: #2b303a;
+    padding: 5rem 5rem;
+    color: white;
+}
+
+.contactHelp {
+    left: 3rem;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 5.2rem;
+}
+
+.contactContactInfo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 70vw;
+    padding: 3rem 0;
+}
+
+.contactInfoStyle {
+    color: aquamarine;
+    max-width: 30%;
+    font-size: 1.1rem;
+}
+
+.contactInfoStyle h3 {
+    color: white;
+}
+
+.contactInfoHeader {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactIconPadding {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.contactIconLocation {
+    background-color: rgb(92, 46, 52);
+}
+
+.contactIconClock {
+    background-color: rgba(10, 191, 83, 0.4);
+}
+
+.contactIconEnvelope {
+    background-color: rgba(97, 144, 255, 0.4);
+}
+
+.contactTextPadding {
+    padding-top: 15px;
+}
+
+.contactFormText {
+    display: flex;
+    padding-left: 5.2rem;
+}
+
+.contactFormTextText {
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+.contactFormContainer {
+    width: 100%;
+    max-width: 30vw;
+    background-color: rgba(118, 29, 213, 0);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 3px;
+    border-radius: 10px;
+}
+
+.contactHorizontal {
+    width: 100%;
+    height: 5px;
+    margin: 0;
+    border: 0;
+    background-color: rgb(103, 104, 103);
+}
+
+@media (max-width: 768px) {
+    .contactContainer {
+        padding: 3rem 2rem;
+    }
+
+    .contactHelp {
+        font-size: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .contactContactInfo {
+        width: 100%;
+        padding: 2rem 0;
+        flex-direction: column;
+    }
+
+    .contactInfoStyle {
+        max-width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contactFormText {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactFormTextText {
+        font-size: 1rem;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .contactFormContainer {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactContainer {
+        padding: 2rem 1rem;
+    }
+
+    .contactHelp {
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+
+    .contactContactInfo {
+        gap: 20px;
+    }
+
+    .contactInfoStyle {
+        font-size: 0.9rem;
+    }
+
+    .contactFormTextText {
+        font-size: 0.9rem;
+    }
+
+    .contactFormContainer {
+        max-width: 90vw;
+    }
+}
