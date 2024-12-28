@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFeather } from '@fortawesome/free-solid-svg-icons';
 
 
 const image1 = "https://api.educationpost.in/s3-images/1727432694838-ra.jpg";
@@ -99,7 +101,7 @@ const InfluencerManagement = () => {
           <img src='https://assets.entrepreneur.com/content/3x2/2000/1681391086-Untitleddesign40.png?format=pjeg&auto=webp&crop=1:1' alt="picture" />
         </div>
         <div className='textOfContainer'>
-          <h3>Trending Influencers In Town</h3>
+          <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Trending Influencers In Town</h3>
           <div className='textOfContainertext'>
             Discover the power of today’s most influential voices, as we bring together the trendsetters who shape conversations and define culture.
           </div>
@@ -131,7 +133,7 @@ const InfluencerManagement = () => {
         <div className='descriptionOfCardContainer'>
           <div className='leftDescriptionOfCardContainer'>
             <h2 className='cardHeading'>
-              WHAT WE DO
+              <FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />WHAT WE DO
             </h2>
             <div className='cardHeadingDescription'>
             A company that connects brands with top influencers to boost visibility and engagement.

@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFeather } from '@fortawesome/free-solid-svg-icons';
 
 
 const image1 = "https://assets.vogue.in/photos/5ce40bea4a30b3356412b0e2/master/pass/All-the-Bollywood-celebrities-at-ht-most-stylish-awards-2019.jpg";
@@ -98,7 +100,7 @@ const CelebrityManagement = () => {
           <img src='https://s1.r29static.com/bin/entry/2fb/720x480,85/1936248/image.webp' alt="picture" />
         </div>
         <div className='textOfContainer'>
-          <h3>Top Celebs In House</h3>
+          <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Top Celebs In House</h3>
           <div className='textOfContainertext'>
             With expertise in coordinating appearances, performances, and endorsements, we handle the intricate details behind the scenes. Our goal is to create genuine connections that resonate with audiences.
           </div>
@@ -130,7 +132,7 @@ const CelebrityManagement = () => {
       <div className='descriptionOfCardContainer'>
           <div className='leftDescriptionOfCardContainer'>
             <h2 className='cardHeading'>
-              WHAT WE DO
+              <FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />WHAT WE DO
             </h2>
             <div className='cardHeadingDescription'>
             We set the standard in celebrity management, expertly handling every detail from scheduling to high-profile appearances with precision and excellence.

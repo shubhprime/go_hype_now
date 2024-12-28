@@ -3,6 +3,8 @@ import './Home.css'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import missTeenIndia from '../../assets/missteenindia.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFeather } from '@fortawesome/free-solid-svg-icons';
 
 const image1 = missTeenIndia;
 const image2 = "https://images.marc-cain.com/cms/1920_1080/50-Jahre-MarcCain-Fashion-Show-KarolinaKurkova-HelmutSchlotterer-2.webp";
@@ -92,7 +94,7 @@ const Home = () => {
             <img src='https://s1.r29static.com/bin/entry/2fb/720x480,85/1936248/image.webp' alt="picture" />
           </div>
           <div className='homeContainerHeaderDescription'>
-            <h3>Welcome To Hype</h3>
+            <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Welcome To Hype</h3>
             <div className='homeContainerHeaderDescriptionText'>
               Welcome! Here, you'll find a space where your needs are understood, and your vision is brought to life with care. We’re committed to making your experience smooth, enjoyable, and truly memorable. <span>We're excited to have you with us!</span>
             </div>
@@ -107,7 +109,7 @@ const Home = () => {
 
         <div className='homeContainerOngoingEvents'>
           <div className='homeContainerOngoingEventsDescription'>
-            <h3>Join The Exciting Journey</h3>
+            <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Join The Exciting Journey</h3>
             <br />
             <div className='homeContainerOngoingEventsDescriptionText'>
               Get ready for a glamorous and exciting journey at Miss Teen India, a premier fashion show that celebrates beauty, talent, and individuality! This event brings together the best in fashion, where young talent from all over the country will take the stage to showcase their unique style and grace. Whether you're passionate about fashion or looking to make your mark in the industry, Miss Teen India offers an incredible platform to shine.
@@ -145,7 +147,7 @@ const Home = () => {
             <img src='https://th-i.thgim.com/public/incoming/l7o5aj/article68588922.ece/alternates/LANDSCAPE_1200/17_mn%20Shreya%20Goshal%201.JPG' alt="picture" />
           </div>
           <div className='homeContainerHeaderDescription'>
-            <h3>Partner with the Stars: Bringing Celebrities and Influencers to You</h3>
+            <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Partner with the Stars: Bringing Celebrities and Influencers to You</h3>
             <div className='homeContainerHeaderDescriptionText'>
               At Hype, we understand the power of influence. Whether you're looking to elevate your brand, launch a new product, or create a buzz around your event, we connect you with the perfect celebrities and influencers to bring your vision to life. Our extensive network of high-profile personalities ensures that you get the right match to captivate your audience and amplify your message.
             </div>
@@ -160,7 +162,7 @@ const Home = () => {
 
         <div className='homeContainerOngoingEvents'>
           <div className='homeContainerOngoingEventsDescription'>
-            <h3>Uniting Exceptional Events & Powerful PR</h3>
+            <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Uniting Exceptional Events & Powerful PR</h3>
             <br />
             <div className='homeContainerOngoingEventsDescriptionText'>
             At Hype, we don’t just organize events—we craft experiences that captivate and inspire. From intimate gatherings to large-scale productions, we handle every detail, ensuring your event is nothing short of extraordinary.

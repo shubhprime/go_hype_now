@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFeather } from '@fortawesome/free-solid-svg-icons';
 
 
 const image1 = "https://wallpapers.com/images/hd/corporate-event-1920-x-1080-wallpaper-3aofpuvo59f02ca4.jpg";
@@ -97,7 +99,7 @@ const EventManagement = () => {
           <img src='https://elements-resized.envatousercontent.com/elements-video-cover-images/files/43ce8046-5762-4732-bf7c-07b8e30e2c9c/inline_image_preview.jpg?w=500&cf_fit=cover&q=85&format=auto&s=b1cc16c1455ef559743f8b5264b4bcf60170be306c96046fe71d98597b074c55' alt="picture" />
         </div>
         <div className='textOfContainer'>
-          <h3>Best Events In Town</h3>
+          <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Best Events In Town</h3>
           <div className='textOfContainertext'>
             Every event is managed with a commitment to delivering exceptional quality, ensuring that expectations are not just met but exceeded.
           </div>
@@ -129,7 +131,7 @@ const EventManagement = () => {
         <div className='descriptionOfCardContainer'>
           <div className='leftDescriptionOfCardContainer'>
             <h2 className='cardHeading'>
-              WHAT WE DO
+              <FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />WHAT WE DO
             </h2>
             <div className='cardHeadingDescription'>
               An Event Managing Company

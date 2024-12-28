@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFeather } from '@fortawesome/free-solid-svg-icons';
 
 
 const image1 = "https://www.eventbrite.com/blog/wp-content/uploads/2022/08/USEditorsPicks_Inspiring-Event-Themes.jpg";
@@ -99,7 +100,7 @@ const PublicRelations = () => {
         <img src='https://www.therightcateringcompany.com/wp-content/uploads/2020/09/PR-Events-Catering-1.jpg' alt="picture" />
       </div>
       <div className='textOfContainer'>
-        <h3>Top-tier PR Solutions</h3>
+        <h3><FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />Top-tier PR Solutions</h3>
         <div className='textOfContainertext'>
         Unmatched PR strategies craft compelling stories that captivate audiences and drive meaningful engagement. With a focus on creativity and precision, every campaign is designed to make a lasting impression.
         </div>
@@ -131,7 +132,7 @@ const PublicRelations = () => {
     <div className='descriptionOfCardContainer'>
           <div className='leftDescriptionOfCardContainer'>
             <h2 className='cardHeading'>
-              WHAT WE DO
+            <FontAwesomeIcon icon={faFeather} style={{color: "#63E6BE",}} className='feather' />WHAT WE DO
             </h2>
             <div className='cardHeadingDescription'>
             From media relations to event management, we offer tailored solutions that enhance visibility and strengthen brand presence.

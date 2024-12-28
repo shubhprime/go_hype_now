@@ -2,7 +2,7 @@
 
 body {
     font-family: Poppins;
-    background: linear-gradient(to bottom, #ffffff, #990033);
+    background: linear-gradient(to bottom, #313131, #000000);
 }
 
 svg {
@@ -223,12 +223,13 @@ header .menu {
 
 .textOfContainer h3 {
     font-weight: bolder;
-    color: #7b7777;
+    color: #fa1f1f;
     font-weight: bolder;
 }
 
 .textOfContainertext {
     font-size: large;
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -292,7 +293,7 @@ header .menu {
 .divider {
     border: 0;
     height: 8px;
-    background: linear-gradient(to right, #2e02bc, #99045b);
+    background: linear-gradient(to right, #ffffff, #ff0000);
     border-radius: 5px;
 }
 
@@ -312,7 +313,11 @@ header .menu {
 }
 
 .contactUsText h2{
-    color: #7b7777;
+    color: #ffffff;
+}
+
+.contactUsText h3{
+    color: #c6bfbf;
 }
 
 .button {
@@ -416,11 +421,12 @@ header .menu {
 }
 
 .cardHeading{
-    color: #7b7777;
+    color: #fa1f1f;
 }
 
 .cardHeadingDescription {
     font-size: 25px;
+    color: #ffffff;
 }
 
 .thinDivider {

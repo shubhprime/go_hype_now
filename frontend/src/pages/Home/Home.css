@@ -180,8 +180,14 @@
 }
 
 .homeContainerHeaderDescription h3 {
-    color: rgb(81, 116, 255);
+    color: #fa1f1f;
     font-weight: bolder;
+    display: flex;
+    gap: 10px;
+}
+
+.feather{
+    width: 3rem;
 }
 
 .homeContainerHeaderDescription span {
@@ -190,7 +196,7 @@
 
 .homeContainerHeaderDescription div {
     font-size: larger;
-    color: rgb(60, 60, 60);
+    color: #fffdfd;
 }
 
 .homeContainerOngoingEvents {
@@ -200,13 +206,13 @@
 }
 
 .homeContainerOngoingEventsDescription h3 {
-    color: rgb(81, 116, 255);
+    color: #fa1f1f;
     font-weight: bolder;
 }
 
 .homeContainerOngoingEventsDescription div {
     font-size: larger;
-    color: rgb(60, 60, 60);
+    color: #fffdfd;
 }
 
 .homeContainerOngoingEventsImage img {
