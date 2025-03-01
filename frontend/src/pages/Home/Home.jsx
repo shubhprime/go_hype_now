@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import missTeenIndia from '../../assets/missteenindia.jpg';
 
 const image1 = missTeenIndia;
-const image2 = "https://images.marc-cain.com/cms/1920_1080/50-Jahre-MarcCain-Fashion-Show-KarolinaKurkova-HelmutSchlotterer-2.webp";
+const image2 = "https://img.freepik.com/premium-photo/glamorous-event-with-celebrities-influencers_1168612-393850.jpg";
 const image3 = "https://wallpapers.com/images/hd/corporate-event-1920-x-1080-wallpaper-3aofpuvo59f02ca4.jpg";
 const image4 = "https://newindian.in/wp-content/uploads/2022/05/Can-pic_05.jpg"
 

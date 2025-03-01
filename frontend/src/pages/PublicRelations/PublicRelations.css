@@ -191,11 +191,12 @@ header .menu{
     display: flex;
     flex-direction: column;
     gap: 3vh;
+    color: white;
 }
 
 .textOfContainer h3 {
     font-weight: bolder;
-    color: #7b7777;
+    color: #eaff00;
     font-weight: bolder;
 }
 
@@ -273,6 +274,7 @@ header .menu{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: white;
 }
 
 .contactUsText {
@@ -284,7 +286,7 @@ header .menu{
 }
 
 .contactUsText h2{
-    color: #7b7777;
+    color: #eaff00;
 }
 
 .button {
@@ -336,11 +338,16 @@ header .menu{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
 
+.leftDescriptionOfCardContainer h2{
+    color: #eaff00;
+}
+
 .leftDescriptionOfCardContainer {
     display: flex;
     flex-direction: column;
     gap: 2.5vh;
     width: 35vw;
+    color: white;
 }
 
 @media (max-width: 768px) {

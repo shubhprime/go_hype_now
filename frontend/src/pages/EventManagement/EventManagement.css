@@ -2,7 +2,7 @@
 
 body {
     font-family: Poppins;
-    background: linear-gradient(to bottom, #ffffff, #990033);
+    background: linear-gradient(to bottom, #282727, #070707);
 }
 
 svg {
@@ -219,11 +219,12 @@ header .menu {
     display: flex;
     flex-direction: column;
     gap: 3vh;
+    color: white;
 }
 
 .textOfContainer h3 {
     font-weight: bolder;
-    color: #7b7777;
+    color: #7a7b77;
     font-weight: bolder;
 }
 
@@ -312,7 +313,7 @@ header .menu {
 }
 
 .contactUsText h2{
-    color: #7b7777;
+    color: #7a7b77;
 }
 
 .button {

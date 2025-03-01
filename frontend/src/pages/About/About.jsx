@@ -7,7 +7,7 @@ const About = () => {
       <div className='aboutContainer'>
         <div className='aboutContainerHeader'>
           <div className='aboutContainerHeaderImage'>
-            <img src='https://virgomediatech.com/assets/images/paras.jpeg' alt="picture" />
+            <img src='https://www.virrgonetwork.com/public/frontend/images/owner/paras-sharma.jpg' alt="picture" />
           </div>
           <div className='aboutContainerHeaderDescription'>
             <h3>Hype Unlimited</h3>
